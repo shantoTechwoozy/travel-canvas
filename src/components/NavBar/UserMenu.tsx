@@ -43,7 +43,7 @@ const UserCard: React.FC<UserCardProps> = ({ name}) => {
           <ul>
             <li>
               <Link
-                to="/login"
+                to="/"
                 className="block py-2 px-4 text-gray-800 hover:bg-gray-200"
               >
                 Login
@@ -51,7 +51,7 @@ const UserCard: React.FC<UserCardProps> = ({ name}) => {
             </li>
             <li>
             <Link
-                    to="/signup">
+                    to="/">
               <button
                 className="block w-full py-2 px-4 text-left text-gray-800 hover:bg-gray-200"
               >

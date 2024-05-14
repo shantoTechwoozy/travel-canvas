@@ -5,8 +5,7 @@ import PlaceCard from './components/PlaceCards/PlaceCard';
 import ServiceCard from './components/ServiceCards/ServiceCard';
 import Layout from "./pages/Layout";
 import Footer from './components/FooterSection/Footer';
-import SignupForm from './components/Registration/SignupForm';
-import LoginForm from './components/Registration/LoginForm';
+
 import Booking from './components/PlaceCards/Booking';
 
 export default function App() {
@@ -19,9 +18,6 @@ export default function App() {
         <Route path="/about" element={<Layout><Home /></Layout>} />
         <Route path="/contact" element={<Footer />} />
         <Route path="/booking" element={<Layout><Booking /></Layout>} />
-        {/* Login and Signup routes outside the layout */}
-        <Route path="/login" element={<LoginForm />} />
-        <Route path="/signup" element={<SignupForm />} />
       </Routes>
     </Router>
   );

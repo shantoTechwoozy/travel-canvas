@@ -22,7 +22,7 @@ const MenuBar: React.FC = () => {
             <FcBinoculars className="text-4xl sm:text-5xl" />
             <div className="text-center sm:text-left ml-3">
               <h1 className="font-mono text-1xl mr-5 sm:text-3xl font-bold bg-gradient-to-r text-transparent bg-clip-text from-purple-400 to-pink-600">
-                <span className="text-2xl sm:text-2xl">Travel Around</span>
+                <span className="text-2xl sm:text-2xl">Travel Canvas</span>
               </h1>
               <p className="md:block mt-1.5 text-xs text-gray-500">
                 Make Your Journey Spectacular
@@ -55,7 +55,7 @@ const MenuBar: React.FC = () => {
                 </li>
                 <li>
                   <Link
-                    to="/destinations"
+                    to="/"
                     className="text-gray-500 font-semibold transition hover:text-gray-500/75"
                     onClick={closeMenu}
                   >
@@ -85,7 +85,7 @@ const MenuBar: React.FC = () => {
                 </li>
                 <li>
                   <Link
-                    to="/contact"
+                    to="/"
                     className="text-gray-500 font-semibold transition hover:text-gray-500/75"
                     onClick={closeMenu}
                   >
