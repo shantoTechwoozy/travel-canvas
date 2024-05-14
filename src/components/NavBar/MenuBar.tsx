@@ -163,7 +163,7 @@ const MenuBar: React.FC = () => {
             <ul className="flex flex-col items-start gap-4 text-xs">
               <li>
                 <Link
-                  to="/Home"
+                  to="/"
                   className="text-gray-500 font-semibold transition hover:text-gray-500/75"
                   onClick={closeMenu}
                 >
@@ -183,7 +183,7 @@ const MenuBar: React.FC = () => {
               </li>
               <li>
                 <Link
-                  to="/destinations"
+                  to="/"
                   className="text-gray-500 font-semibold transition hover:text-gray-500/75"
                   onClick={closeMenu}
                 >
@@ -203,7 +203,7 @@ const MenuBar: React.FC = () => {
               </li>
               <li>
                 <Link
-                  to="/about"
+                  to="/"
                   className="text-gray-500 font-semibold transition hover:text-gray-500/75"
                   onClick={closeMenu}
                 >
@@ -213,7 +213,7 @@ const MenuBar: React.FC = () => {
               </li>
               <li>
                 <Link
-                  to="/contact"
+                  to="/"
                   className="text-gray-500 font-semibold transition hover:text-gray-500/75"
                   onClick={closeMenu}
                 >
