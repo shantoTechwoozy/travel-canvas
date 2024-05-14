@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
               <div>
                 <h1 className="font-mono text-1xl mr-5 sm:text-3xl font-bold bg-gradient-to-r text-transparent bg-clip-text from-purple-400 to-pink-600">
                   <FcCompactCamera />
-                  <span className="text-1xl sm:text-2xl">Travel Around</span>
+                  <span className="text-1xl sm:text-2xl">Travel Canvas</span>
                 </h1>
 
                 <p className="text-xs mt-4 text-gray-500">
