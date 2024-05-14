@@ -373,7 +373,7 @@ const Footer: React.FC = () => {
           <div className="sm:flex sm:justify-between">
             <p className="text-sm text-zinc-600">
               &copy; 2023-2024.{" "}
-              <a href="https://github.com/abufahimkhan">Abu Fahim Khan</a>. All
+              <a href="https://github.com/abufahimkhan">Tech Woozy</a>. All
               rights reserved.
             </p>
 
